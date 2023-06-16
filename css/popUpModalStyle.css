@@ -1,0 +1,237 @@
+/* The Modal (background) */
+.modal {
+  /* cursor: pointer; */
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 50px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
+  }
+  
+/* Modal Content */
+.modal-content {
+  border-radius: 10px;
+  background-color: #fefefe;
+  margin: auto;
+  padding-top: 0;
+  border: 1px solid #888;
+  width: 450px;
+  -webkit-box-shadow: 0px 0px 10px 2px rgba(1, 15, 143, 0.5);
+  -moz-box-shadow: 0px 0px 10px 2px rgba(1, 15, 143, 0.5);
+  box-shadow: 0px 0px 10px 2px rgba(1, 15, 143, 0.5);
+}
+
+@media only screen and (max-width: 500px) {
+  .modal-content {
+    width: 100%;
+  }
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top:0;
+  right: 0;
+  color: #000;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #aaaaaa;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.header {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box; 
+  box-sizing: border-box;
+  display: flex;
+  padding: 5px 20px 10px 20px;    
+}
+
+.first_two_one {
+  width: 80%;
+}
+
+.first_two_two {
+  position: relative;
+  width: 20%;
+}
+#myModal input {
+  border: 0.5px solid grey;
+  border-radius: 5px;
+  outline: 0;
+  height: 40px;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;    
+  box-sizing: border-box;
+}
+#myModal input:hover {
+  border: 1px solid #7587d3;
+}
+#myModal input:focus {
+    border: 1px solid #526de4;
+}
+#myModal select {
+  outline: none;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.first_two_input {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box; 
+  box-sizing: border-box;
+  padding: 5px 20px 5px 20px; 
+  width: 100%;
+}
+.first_two_input input {
+  width: 48%;
+}
+.emailpass {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box; 
+  box-sizing: border-box;
+  padding: 5px 20px 5px 20px; 
+}
+
+.birthDateCollect {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px 20px 5px 20px;
+}
+
+.birthDateDiv {
+  margin-top: 2px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box; 
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.birthDateDiv select {
+  width: 31%;
+  height: 30px;
+}
+
+.genderCollector {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box; 
+  box-sizing: border-box;
+  padding: 5px 20px 5px 20px; 
+}
+.genderDiv {
+  margin-top: 2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.boxForGenders {
+  border: 1px solid grey;
+  border-radius: 5px;
+  width: 31%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box; 
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+}
+.boxForGenders label {
+  width: 80%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 5px;
+}
+.boxForGenders label span {
+  font-size: 1.05em;
+}
+.boxForGenders .radioInput {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+}
+.endOfContent {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box; 
+  box-sizing: border-box;
+  padding: 0px 20px 0px 20px;
+}
+
+.endOfContent p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#registerButton {
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid #4285F4;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #4285F4;
+  margin-bottom: 10px;
+}
+
+#registerButton:hover {
+  background-color: #4285F4;
+  color: white;
+  border: 1px solid #3e71c4;
+}
+
+#teemoPassiveDiv {
+  display: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box; 
+  box-sizing: border-box;
+  margin-top: 10px;
+  width: 100%;
+}
+#teemoPassiveDiv p {
+  color: red;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 370px) {
+  .genderDiv {
+    flex-direction: column;
+  }
+  .boxForGenders {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+}
+@media only screen and (max-width: 340px) {
+  .first_two_one h1 {
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (max-width: 270px) {
+  .first_two_one h1 {
+    font-size: 1rem;
+  }
+  .birthDateDiv {
+    flex-direction: column;
+  }
+  .birthDateDiv select {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+}
+@media only screen and (max-width: 200px) {
+  .first_two_one h1 {
+    font-size: 0.6rem;
+  }
+}

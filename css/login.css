@@ -1,0 +1,159 @@
+.clear {
+    clear: both;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+    transition: background-color 600000s 0s, color 600000s 0s;
+}
+input[data-autocompleted] {
+    background-color: transparent !important;
+}
+#loginBox {
+    /* margin-top: 100px; */
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(80,145,194,1);
+    -moz-box-shadow: 0px 0px 10px 5px rgba(80,145,194,1);
+    box-shadow: 0px 0px 10px 5px rgba(80,145,194,1);
+
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    /* background-color: #2976c2; */
+    /* background-color: #ededed; */
+    /* background-color: #28538f; */
+    width: 400px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    background: rgb(4,105,203);
+background: -moz-linear-gradient(180deg, rgba(4,105,203,1) 80%, rgba(17,48,78,1) 95%);
+background: -webkit-linear-gradient(180deg, rgba(4,105,203,1) 80%, rgba(17,48,78,1) 95%);
+background: linear-gradient(180deg, rgba(4,105,203,1) 80%, rgba(17,48,78,1) 95%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0469cb",end1Colorstr="#11304e",GradientType=1);
+}
+#createAccountSpan {
+    color: white;
+}
+#loginForm {
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+#login_email::before {
+    font: var(--fa-font-solid);
+    content: ' \f0d7';
+    position: absolute;
+    left: 0;
+    padding-left: 0.2rem;
+    font-size: 0.7em;
+    /*margin-left: 0.2rem;*/
+}
+.labelInput {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.inputStyle {
+    width: 100%;
+    background-color: #104a85;
+    color: white;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;    
+    box-sizing: border-box;
+    padding: 10px;
+    border: 0.5px solid white;
+    border-radius: 5px;
+    outline: 0;
+    height: 35px;
+}
+.inputStyle::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+  
+  .inputStyle:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+  }
+  
+  .inputStyle::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+  }
+input:focus::placeholder {
+  color: transparent;
+}
+.inputStyle:hover {
+    border: 1px solid #7587d3;
+}
+
+.inputStyle:focus {
+    border: 1px solid #787878;
+    outline: 0;
+}
+
+#submitBtn {
+    cursor: pointer;
+    outline: none;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #999999;
+    padding: 8px;
+    width: 100%;
+    background-color: #4285F4;
+    font-weight: bolder; 
+}
+
+#submitBtn:hover {
+    color: #d8d8d8;
+    background-color: #1a4b99;
+    border: 1px solid #3f3f3f
+}
+
+#popUpPanelButton {
+    cursor: pointer;
+    outline: none;
+    padding: 10px;
+    border: 1px solid #4285F4;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #4285F4;
+}
+
+#popUpPanelButton:hover {
+    background-color: #4285F4;
+    color: white;
+    border: 1px solid #3e71c4;
+}
+
+.messageBox {
+    position: relative;
+    background-color: red;
+}
+
+.messageBox div {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+}
+
+
+
+@media only screen and (max-height: 800px) {
+    #loginBox {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+  }
+  @media only screen and (max-height: 600px) {
+    #loginBox {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    #loginBox {
+        width: 95%;
+    }
+  }
+/* #loginBox margin-top: 100px; */

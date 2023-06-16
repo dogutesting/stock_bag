@@ -1,0 +1,340 @@
+/* deleted from document
+    .pieAndList {
+    display: flex;
+    justify-content: space-between;
+} */
+.inventarList {
+    width: 100%;
+    /* margin-left: 10px; */
+    max-height: 600px;
+    overflow: auto;
+}
+.inventarList table {
+    font-size: 1.15rem;
+}
+.inventarList table thead {
+    position: sticky; /* header yerinde kalsın */
+    top: 0; /* en üstte kalsın */
+}
+.inventarList table thead tr {
+    font-size: 1.1rem;
+    line-height: 40px;
+    background-color: rgb(13, 146, 255);
+    color: white;
+}
+
+.inventarList table tbody tr {
+    border-left: 1px solid rgb(13, 146, 255);
+    border-right: 1px solid rgb(13, 146, 255);
+}
+.inventarList table tbody tr:hover {
+    background-color: rgba(197, 197, 197, 0.872);
+}
+.inventarList table tr:last-child {
+    border-bottom: 1px solid rgb(13, 146, 255);
+}
+
+.inventarList table td, .inventarList table th {
+    border: none;
+}
+.inventarList table td {
+    border-bottom: 1px solid rgb(119, 158, 202);
+    line-height: 36px;
+}
+
+.expectSellButton {
+    margin-top: 20px;
+    width: 100% !important;
+    padding: 15px !important;;
+    font-size: 1.5rem !important;
+  }
+  
+
+
+.sellStockButton {
+    background: #e2605b;
+    border: 1px solid #FF4742;
+    border-radius: 6px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+            box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 1.1rem;
+    font-weight: normal;
+    line-height: 14px;
+    min-height: 16px;
+    outline: 0;
+    padding: 8px 10px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    -moz-user-select: none;
+     -ms-user-select: none;
+         user-select: none;
+    -webkit-user-select: none;
+    -ms-touch-action: manipulation;
+        touch-action: manipulation;
+    vertical-align: middle;
+  }
+  
+  .sellStockButton:hover,
+  .sellStockButton:active {
+    background-color: initial;
+    background-position: 0 0;
+    /* color: #FF4742; */
+    color: #c22924;
+  }
+  
+  .sellStockButton:active {
+    opacity: .5;
+  }
+  .expectSellButton {
+    background: #e2605b;
+    border: 1px solid #FF4742;
+    border-radius: 6px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+            box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 1.1rem;
+    font-weight: normal;
+    line-height: 14px;
+    min-height: 16px;
+    outline: 0;
+    padding: 8px 10px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    -moz-user-select: none;
+     -ms-user-select: none;
+         user-select: none;
+    -webkit-user-select: none;
+    -ms-touch-action: manipulation;
+        touch-action: manipulation;
+    vertical-align: middle;
+  }
+  
+  .expectSellButton:hover,
+  .expectSellButton:active {
+    background-color: initial;
+    background-position: 0 0;
+    /* color: #FF4742; */
+    color: #c22924;
+    opacity: 5;
+  }
+
+  .realSellButtons {
+    background: #e2605b;
+    border: 1px solid #FF4742;
+    border-radius: 6px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+            box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 1.1rem;
+    font-weight: normal;
+    line-height: 14px;
+    min-height: 16px;
+    outline: 0;
+    padding: 8px 10px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    -moz-user-select: none;
+     -ms-user-select: none;
+         user-select: none;
+    -webkit-user-select: none;
+    -ms-touch-action: manipulation;
+        touch-action: manipulation;
+    vertical-align: middle;
+  }
+  
+  .realSellButtons:hover,
+  .realSellButtons:active {
+    background-color: initial;
+    background-position: 0 0;
+    /* color: #FF4742; */
+    color: #c22924;
+    opacity: 5;
+  }
+
+  .centerHead {
+    display: flex; 
+    justify-content: center;
+  }
+  .headerForH1 {
+    text-align: center; 
+    border-radius: 10px; 
+    background-color: rgb(13, 146, 255); 
+    width: fit-content; 
+    color: white;
+    padding: 20px
+  }
+  .hrBottom {
+    border-bottom: 1px solid rgb(13, 146, 255);
+  }
+
+
+  #squares {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  #squares h3 {
+    text-align: center;
+    color: white;
+    /* font-size: 1.15rem; */
+    font-size: 1.3rem;
+    border-bottom: 3px solid white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  .square {
+    background-color: #478eeb;
+    border-radius: 8px;
+    padding: 7px;
+    height: 130px;
+    width: calc(25% - 25px);
+  }
+  .square p {
+    margin-top: 10px;
+    text-align: center;
+    /* font-size: 1.1rem; */
+    font-size: 1.3rem;
+    /* font-weight: bold; */
+    color: white;
+  }
+
+  .poz {
+    font-weight: bold;
+    color: green;
+    text-shadow: 0px 0px 3px rgba(172, 255, 47, 0.15);
+  }
+
+  .neg {
+    font-weight: bold;
+    color: red;
+    text-shadow: 0px 0px 3px rgba(183, 0, 0, 0.15);
+  }
+
+  .notr {
+    /* MERABALAAR */
+  }
+
+    /*   
+    .stockname:hover {
+    font-weight: bold;
+    cursor: pointer;
+    transition: font-weight 0.2s linear;
+    } 
+    */
+
+  @media only screen and (max-width: 1920px) and (min-width: 1401px) {
+    .square p {
+        font-size: 1.6rem;
+    }
+  }
+
+  @media only screen and (max-width: 1635px) {
+    .inventarList table thead tr {
+        font-size: 0.9rem;
+        /* white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis; */
+    }
+  }
+
+@media only screen and (max-width: 1400px) {
+    #squares h3 {
+        font-size: 1.15rem;
+    }
+    .square p {
+        font-size: 1.25rem;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .pieAndList {
+        display: flex;
+        flex-direction: column;
+    }
+    #piechart {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .inventarList {
+        margin-left: 0;
+        margin-top: 8px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .square {
+        width: calc(50% - 30px);
+        margin-bottom: 10px;
+        height: 120px;
+    }
+    .square p {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .square {
+        height: 130px;
+    }
+    .square p {
+        font-size: 20px;
+    }
+}
+
+
+@media only screen and (max-width: 520px) {
+    #squares {
+        justify-content: center;;
+    }
+    .square {
+        width: 90%;
+        margin-bottom: 10px;
+    }
+    .square {
+        height: auto;
+    }
+    .square h3 {
+        font-size: 25px;
+    }
+    .square p {
+        font-size: 25px;
+    }
+
+   .inventarList table {
+    font-size: 0.82rem;
+   }
+
+   .inventarList table th {
+    font-size: 0.85rem;
+   }
+
+   .inventarList table td {
+    line-height: 20px;
+    }
+    
+    /* .sellStockButton {
+        font-size: 0.6rem !important;
+    } */
+
+}
