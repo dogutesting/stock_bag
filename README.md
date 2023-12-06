@@ -1,5 +1,4 @@
 # stock_bag
-#### Die Bewerbung besteht überwiegend aus Deutsch.
 
 ## PC
 ### PC SS 1:
@@ -45,34 +44,6 @@
 ## Sorunlar:
 - Uygulama yavaş açılıyor
 - Bazı arama terimlerinde hata veriyor, ekrana yazdırılması engellenmesi lazım
-
-# DE
-##### Hinweis: Am 04.04.2023 wollte ich das Projekt, an dem ich gearbeitet habe, nicht auf meinem Computer belassen, sondern auf GitHub hochladen.
-### Beschreibung:
-> Eine Mini-Website, auf der Sie Aktienwerte überprüfen, sie zur Tasche hinzufügen und Gewinn-Verlust-Verhältnisse verfolgen können.
-
-### Ziel: 
-> Ich habe diese Anwendung entwickelt, um zu sehen, welchen Gewinn oder Verlust ich gemacht hätte, wenn ich Aktien gekauft hätte.
-
-### Verwendete Sprachen:
-- Html
-- Css
-- Javascript(+jQuery)
-- PHP
-- MySql
-
-### Installation
-- Laden Sie ein Webserver-Paket herunter und installieren Sie es. Beispiel: Xampp https://www.apachefriends.org/
-- Kopieren Sie dieses Repository in den Ordner xampp/htdocs.
-- Starten Sie die Xampp-Anwendung und starten Sie Apache und MySql.
-- Gehen Sie zu localhost/phpmyadmin und erstellen Sie eine Datenbank mit dem Namen "sync_notes_db".
-- Importieren Sie die SQL-Datei aus dem Ordner "a_sql_file" des Repositories.
-- Bearbeiten Sie die Datei "server.php" im Ordner "php".
-- Nehmen Sie die gewünschten Modifikationen vor.
-
-## Probleme:
-- Die Anwendung öffnet sich langsam.
-- Es treten Fehler bei bestimmten Suchbegriffen auf, die nicht angezeigt werden sollten.
 
 # EN
 ##### Note: On 04.04.2023, I worked on a project that I wanted to upload to GitHub instead of keeping it on my computer.
