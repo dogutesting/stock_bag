@@ -43,7 +43,7 @@
 
 ## Sorunlar:
 - Stabil olmayan hisse veri kütüphanesi kullanılıyor. Sürekli güncelleme gerekli, kütüphane geliştiricisi desteği keserse proje çalışmayı durdurur.
-- Uygulama yavaş açılıyor
+- Uygulama yavaş açılıyor. Bayaaaaaaa yavaş açılıyor.
 - Bazı arama terimlerinde hata veriyor, ekrana yazdırılması engellenmesi lazım
 
 # EN
@@ -72,5 +72,5 @@
 
 ## Issues:
 - An unstable stock data library is being used. Continuous updates are necessary, and if the library developer discontinues support, the project will cease to function.
-- The application has a slow startup time.
+- The application has a slow startup time. Soooooooooo slow.
 - There are some errors in certain search terms, preventing them from being displayed on the screen.
